@@ -39,7 +39,7 @@ Traverse expression:
 
 When the traversal is over, continue to perform the ```eval()``` operation until the operator stack is empty, at this time the top of the number stack is the value of the infix expression.
 
-Let the length of the infix expression string be $$n$$, then the complexity is $$O(n)$$.
+Let the length of the infix expression string be $n$, then the complexity is $O(n)$.
 
 # Test 3
 
@@ -53,9 +53,9 @@ Adopt adjacency list for storage.
 
 In this test, for the node ```u``` is composed of ```k``` nodes ```v```, the additional information ```k``` can be stored in the node```v``` for querying easily.
 
-It is worth noting that the node in this question is uniquely restricted by the name which is is string, so we need to map the string to a number. Because the language is restricted to C, it is difficult to implement the common mapping algorithm. The methods that can be considered for this question are string hash, balanced binary tree, red-black tree, trie, etc.
+It is worth noting that the node in this question is uniquely restricted by the name which is a string, so we need to map the string to a integer. Because the language is restricted to C, it is difficult to implement the common mapping algorithm. The methods that can be considered for this question are string hash, balanced binary tree, red-black tree, trie, etc.
 
-Let the length of the string be $$s$$ and the number of nodes be $$n$$, so the complexity of mapping by trie is $$O(s)$$, which is the most efficient. This project uses a trie to realize the mapping from strings to numbers.
+Let the length of the string be $s$ and the number of nodes be $n$, and the complexity of mapping by trie is $O(s)$, which is the most efficient. This project uses a trie to realize the mapping from strings to integers.
 
 # Test 4
 
@@ -114,7 +114,7 @@ Use the prim algorithm.
 
 当遍历结束后，不断进行```eval()```操作直到运算符栈为空，此时数字栈顶即为中缀表达式的值。
 
-令中缀表达式字符串的长度为 $$n$$，则算法复杂度为 $$O(n)$$。
+令中缀表达式字符串的长度为 $n$，则算法复杂度为 $O(n)$。
 
 # 实验三
 
@@ -130,7 +130,7 @@ Use the prim algorithm.
 
 值得注意的是，本题中的结点以字符串类型的名称为唯一约束，所以我们需要将字符串映射成为数字。由于语言限制为C语言，所以常见的字符串映射为数字的算法实现困难。本题可以考虑的做法有字符串哈希、平衡二叉树、红黑树、字典树等。
 
-令字符串的长度为 $$s$$，节点个数为$$n$$，使用字典树的时间复杂度为 $$O(s)$$，效率最高。本项目使用字典树实现字符串到数字的映射。
+令字符串的长度为 $s$，节点个数为 $n$，使用字典树的时间复杂度为 $O(s)$，效率最高。本项目使用字典树实现字符串到数字的映射。
 
 # 实验四
 

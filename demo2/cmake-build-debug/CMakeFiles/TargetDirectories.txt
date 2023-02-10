@@ -1,3 +1,0 @@
-C:/Users/FengLing/Desktop/data_structure/source/demo2/cmake-build-debug/CMakeFiles/demo2.dir
-C:/Users/FengLing/Desktop/data_structure/source/demo2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/FengLing/Desktop/data_structure/source/demo2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
